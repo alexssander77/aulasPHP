@@ -6,7 +6,7 @@ class Funcionario{
         $this->nome = $n;
         $this->salario = $s;
     }*/
-    function_construct($n, $s){
+    function __construct($n, $s){
         $this->nome = $n;
         $this->salario = $s;
     }
